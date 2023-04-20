@@ -1,0 +1,13 @@
+Index: src/main/PersonChecker.java
+===================================================================
+diff --git a/src/main/PersonChecker.java b/src/main/PersonChecker.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/PersonChecker.java	
+@@ -0,0 +1,6 @@
++public class PersonChecker implements CheckPerson{
++    @Override
++    public boolean test(Person p) {
++        return false;
++    }
++}
