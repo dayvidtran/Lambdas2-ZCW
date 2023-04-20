@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d18e07b-db98-4a73-a88a-5af6c074be10" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/TestLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PersonChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PersonChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TestLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TestLocal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,23 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="TestLocal.testPersonChecker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lambdas2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLocal" />
+      <option name="METHOD_NAME" value="testPersonChecker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestLocal.testPersonChecker" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

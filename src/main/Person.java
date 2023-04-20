@@ -6,7 +6,6 @@ public class Person {
     }
 
     String name;
-    LocalDate birthday;
     Sex gender;
     String emailAddress;
 
@@ -19,15 +18,15 @@ public class Person {
         return 0;
     }
 
-    public void printPerson() {
+    public String printPerson() {
         System.out.println(toString());
+        return toString();
     }
 
     @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
-                ", birthday=" + birthday +
                 ", gender=" + gender +
                 ", emailAddress='" + emailAddress + '\'' +
                 '}';
