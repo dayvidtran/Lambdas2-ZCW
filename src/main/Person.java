@@ -10,6 +10,10 @@ public class Person {
     Sex gender;
     String emailAddress;
 
+    public Person(String name, Sex male, String emailAddress) {
+        this.name = name;
+    }
+
     public int getAge() {
         // ...
         return 0;
